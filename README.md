@@ -2,7 +2,7 @@
 import sqlite3
 conn = sqlite3.connect('orders.db')
 conn = sqlite3.connect(r'C:\Users\student\Desktop\cheto\orders.db')
-def create();
+def create():
 cur = conn.cursor()
 cur.execute("""CREATE TABLE IF NOT EXISTS users(
    userid INT PRIMARY KEY,
